@@ -25,14 +25,14 @@ function Footer() {
                         /> </a>
                 </div>
                 <div className='icons'onMouseEnter={() => towArrowRef.current?.playFromBeginning()}>
-                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=haidiromany1@gmail.com" target="_blank"><Player 
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=haidiromany1@gmail.com" target="_blank" rel="noreferrer"><Player 
                             ref={towArrowRef} 
                             icon={ICON2} 
                             size={60} 
                         /> </a>
                 </div>
             </div>
-            <div className='w-full h-20 flex justify-center items-center gap-2'>
+            <div className='w-full h-20 flex justify-center items-center gap-2 text-white'>
                 <h5>©{new Date().getFullYear()} Haidi Romany. All rights reserved.</h5>
             </div>
         </div>

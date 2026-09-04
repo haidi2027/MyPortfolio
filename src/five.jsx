@@ -44,13 +44,13 @@ function Five() {
                                 <h3 className='logo2'>Car Store </h3>
                             </div>
                             <div className='bttn3'>
-                                <a href="https://github.com/haidi2027/project-U.git"><MDBBtn className="bttn w-32 logo3 d-flex align-items-center justify-content-center flex-nowrap gap-2" onClick={() => LefttArrowRef.current?.playFromBeginning()}>
+                                <a href="https://github.com/haidi2027/project-U.git" target="_blank" rel="noreferrer"><MDBBtn className="bttn w-32 logo3 d-flex align-items-center justify-content-center flex-nowrap gap-2" onClick={() => LefttArrowRef.current?.playFromBeginning()}>
                                     <span> GitHub</span>
                                     <span className="d-flex align-items-center">
                                     <Player ref={LefttArrowRef} icon={ICONN} size={25} />
                                     </span>
                                 </MDBBtn></a>
-                                <a href="https://project-u-7y6q.vercel.app"><MDBBtn className="bttn2 w-36 logo3 d-flex align-items-center justify-content-center flex-nowrap gap-2" >
+                                <a href="https://project-u-7y6q.vercel.app" target="_blank" rel="noreferrer"><MDBBtn className="bttn2 w-36 logo3 d-flex align-items-center justify-content-center flex-nowrap gap-2" >
                                     <span>Live Demo</span>
                                     
                                 </MDBBtn></a>
@@ -78,16 +78,16 @@ function Five() {
                                 <h3 className='logo2'>Book Cinema Tickets</h3>
                             </div>
                             <div className='bttn3'>
-                                <a href=""><MDBBtn className="bttn w-32 logo3 d-flex align-items-center justify-content-center flex-nowrap gap-2" onClick={() => LefttArrowRef.current?.playFromBeginning()}>
+                                <MDBBtn className="bttn w-32 logo3 d-flex align-items-center justify-content-center flex-nowrap gap-2" onClick={() => LefttArrowRef.current?.playFromBeginning()}>
                                     <span> GitHub</span>
                                     <span className="d-flex align-items-center">
                                     <Player ref={LefttArrowRef} icon={ICONN} size={25} />
                                     </span>
-                                </MDBBtn></a>
-                                <a href=""><MDBBtn className="bttn2 w-36 logo3 d-flex align-items-center justify-content-center flex-nowrap gap-2" >
+                                </MDBBtn>
+                                <MDBBtn className="bttn2 w-36 logo3 d-flex align-items-center justify-content-center flex-nowrap gap-2" >
                                     <span>Live Demo</span>
                                     
-                                </MDBBtn></a>
+                                </MDBBtn>
                             </div>
                         </div>
                     </motion.div>
@@ -112,16 +112,16 @@ function Five() {
                                 <h3 className='logo2'>Clothing Store</h3>
                             </div>
                             <div className='bttn3'>
-                                <a href=""><MDBBtn className="bttn w-32 logo3 d-flex align-items-center justify-content-center flex-nowrap gap-2" onClick={() => LefttArrowRef.current?.playFromBeginning()}>
+                                <MDBBtn className="bttn w-32 logo3 d-flex align-items-center justify-content-center flex-nowrap gap-2" onClick={() => LefttArrowRef.current?.playFromBeginning()}>
                                     <span> GitHub</span>
                                     <span className="d-flex align-items-center">
                                     <Player ref={LefttArrowRef} icon={ICONN} size={25} />
                                     </span>
-                                </MDBBtn></a>
-                                <a href=""><MDBBtn className="bttn2 w-36 logo3 d-flex align-items-center justify-content-center flex-nowrap gap-2" >
+                                </MDBBtn>
+                                <MDBBtn className="bttn2 w-36 logo3 d-flex align-items-center justify-content-center flex-nowrap gap-2" >
                                     <span>Live Demo</span>
                                     
-                                </MDBBtn></a>
+                                </MDBBtn>
                             </div>
                         </div>
                     </motion.div>
@@ -214,16 +214,16 @@ function Five() {
                                 <h3 className='logo2'>Supermarket</h3>
                             </div>
                             <div className='bttn3'>
-                                <a href=""><MDBBtn className="bttn w-32 logo3 d-flex align-items-center justify-content-center flex-nowrap gap-2" onClick={() => LefttArrowRef.current?.playFromBeginning()}>
+                                <MDBBtn className="bttn w-32 logo3 d-flex align-items-center justify-content-center flex-nowrap gap-2" onClick={() => LefttArrowRef.current?.playFromBeginning()}>
                                     <span> GitHub</span>
                                     <span className="d-flex align-items-center">
                                     <Player ref={LefttArrowRef} icon={ICONN} size={25} />
                                     </span>
-                                </MDBBtn></a>
-                                <a href=""><MDBBtn className="bttn2 w-36 logo3 d-flex align-items-center justify-content-center flex-nowrap gap-2">
+                                </MDBBtn>
+                                <MDBBtn className="bttn2 w-36 logo3 d-flex align-items-center justify-content-center flex-nowrap gap-2">
                                     <span>Live Demo</span>
                                     
-                                </MDBBtn></a>
+                                </MDBBtn>
                             </div>
                         </div>
                     </motion.div>
