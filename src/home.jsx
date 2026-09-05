@@ -43,7 +43,7 @@ function App() {
   >
     I'm Haidi Romany
   </motion.h2>
-
+  <div>
   <motion.h1
     className="text-6xl logo2"
     initial={{ opacity: 0, x: -100 }}
@@ -53,7 +53,7 @@ function App() {
   >
     Frontend
   </motion.h1>
-
+  
   <motion.h1
     className="text-6xl logo2"
     initial={{ opacity: 0, x: -100 }}
@@ -63,7 +63,7 @@ function App() {
   >
     Developer
   </motion.h1>
-
+  </div>
   <motion.p
     className="text-lg text-gray-200 logo3"
     initial={{ opacity: 0, x: -100 }}

@@ -67,7 +67,7 @@ body {
     }
     .motions{
         position: relative;
-        top: 120px;
+        top: 150px;
         left:   70px;
     }
     .loader{
@@ -87,6 +87,14 @@ body {
         top: 150px;
         right: -130px;
         padding: 0px;
+    }
+    html {
+    overscroll-behavior: none;
+    overflow-x: hidden;
+}
+
+    :root {
+        overscroll-behavior: none;
     }
     /* =========================
         Mobile Responsive
@@ -254,7 +262,6 @@ body {
         position: relative;
         top: 340px;
         left: 20px;
-
         height: 40%;
         display: flex;
         justify-content: center;
@@ -262,7 +269,162 @@ body {
         flex-wrap: wrap;
 
     }
-}
+}}
+@media (min-width: 767px) and (max-width:1023px){
+    .navv>.logo>.logo {
+        width: 300px;
+        font-size: 20;
+        display: block;
+        position: relative;
+        left: -30px;
+    }
+    .navsword{
+        display: flex;
+        justify-content: start;
+        gap: 50px;
+    }
+    #home{
+        width: 100%;
+        height: 100vh;
+        position:relative;
+        top: 0px;
+        left: -60px;
+    }
+    #home>.motions>h2{
+        font-size:70px;
+        margin-bottom: 250px;
+    }
+    #home>.motions>div>h1{
+        font-size:70px;
+    }
+    #home>.motions>p{
+        margin-top: 50px;
+        font-size:30px;
+        line-height: 1.5;
+    }
+    #home>.orbital{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 380px;
+        right: 20px;
+    }
+    #about{
+        width: 100%;
+        height: 100vh;
+        
+    }
+    #about>.about{
+        position: absolute;
+        right: 40px;
+    }
+    #about>.about>.dash2>h2{
+        font-size: 35px;
+    }
+    #about>.about>.about2{
+        font-size: 25px;
+    }
+    #about>.divs1{
+        width: 50%;
+        position: absolute;
+        right: 40px;
+        bottom:  10px;
+    }
+    #about>.divs1>.divs12{
+        height:70%;
+    }
+    #about>.divs1>.divs12>h5{
+        text-align: center;
+        font-weight: 200;
+    }
+    #about>.divs{
+        width: 60%;
+        position: absolute;
+        left: 30px;
+    }
+    #about>.divs>.divss>.square{
+        width: 15%;
+        height: 50%;
+    }
+    #about>.divs>.divss>.word{
+        font-size: 25px;
+        font-weight: 100;
+    }
+    #services{
+        width:100%;
+        height: 100vh;
+    }
+    #services>.words8>div>.logo2{
+        font-size: 45px;
+    }
+    #services>.words8>.logo3>h5{
+        font-size: 25px;
+    }
+    #services>.services{
+        width: 80%;
+        height: 75%;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 0;
+    }
+    #services>.services>.service{
+        width: 40%;
+        height: 45%;
+    }
+    #services>.services>.service>.div9{
+        width: 30%;
+    }
+    #services>.services>.service>.word2>h3{
+        font-size: 30px;
+    }
+    #project{
+        width: 100%;
+    }
+    #project>.words8>div>h1{
+        font-size: 35px;
+    }
+    #project>.words8>.logo3>h5{
+        font-size: 30px;
+    }
+    #project>div>.card{
+        width: 300px;
+        height: 300px;
+    }
+    #contact{
+        width: 100%;
+        height: 100vh;
+    }
+    #contact>.words8>div>h1{
+        font-size: 45px;
+    }
+    #contact>.words8>.logo3>h5{
+        font-size: 30px;
+    }
+    #contact>.inputss{
+        width: 100%;
+    }
+    #contact>.inputss>.lable{
+        display: none;
+    }
+    #contact>.inputss>button{
+        position: relative;
+        top:  -40px;
+        left: 5px;
+    }
+    html {
+    overscroll-behavior: none;
+    overflow-x: hidden;
+    }
+
+    :root {
+        overscroll-behavior: none;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 }
 
 a {

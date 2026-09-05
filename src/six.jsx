@@ -53,7 +53,7 @@ function Six() {
                 >
                     <motion.label
                             className="lable"
-                            initial={{ opacity: 0, x: -200 }}
+                            initial={{ opacity: 0, x: -100 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.7, delay: 0. }}
@@ -67,7 +67,7 @@ function Six() {
                         name="name"
                         placeholder="Your name"
                         required
-                        initial={{ opacity: 0, x: -200 }}
+                        initial={{ opacity: 0, x: -100 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.7, delay: 0.2 }}
@@ -75,7 +75,7 @@ function Six() {
 
                     <motion.label 
                         className="lable"
-                        initial={{ opacity: 0, x: 200 }}
+                        initial={{ opacity: 0, x: 100 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.7, delay: 0.4 }}
@@ -89,7 +89,7 @@ function Six() {
                         name="email"
                         placeholder="Your.email@example.com"
                         required
-                        initial={{ opacity: 0, x: 200 }}
+                        initial={{ opacity: 0, x: 100 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.7, delay: 0.4 }}
@@ -97,7 +97,7 @@ function Six() {
 
                     <motion.label
                         className="lable"
-                        initial={{ opacity: 0, x: -200 }}
+                        initial={{ opacity: 0, x: -100 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.7, delay: 0.6 }}
@@ -110,14 +110,14 @@ function Six() {
                         name="message"
                         placeholder="Tell me about your project"
                         required
-                        initial={{ opacity: 0, x: -200 }}
+                        initial={{ opacity: 0, x: -100 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.7, delay: 0.6 }}
                     />
 
                     <motion.button 
-                        initial={{ opacity: 0, x: 200 }}
+                        initial={{ opacity: 0, x: 100 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.7, delay: 0.8 }}
