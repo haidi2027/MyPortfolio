@@ -1152,7 +1152,7 @@ a:active{
         -1px 0px 0px #666,
         0px -1px 0px #666;
   animation: pulse 2s infinite ease-in-out;
-  background-image: url(../public/images/IMG_٢٠٢٥٠٢١١_١٩٥٨١٢.jpg);
+  background-image: url("../public/images/photo_2026-10-27_19-45-59.jpg");
   background-position: center;
   background-size: cover;
   /* Pulse animation */
@@ -1160,7 +1160,7 @@ a:active{
 
 .core:hover {
   background: radial-gradient(ellipse at center, #373a3d 1%, #000000 100%);
-  background-image: url(../public/images/IMG_٢٠٢٥٠٢١١_١٩٥٨١٢.jpg);
+  background-image: url("../public/images/photo_2026-10-27_19-45-59.jpg");
   background-position: center;
   background-size: cover;
 }
